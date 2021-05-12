@@ -1,6 +1,11 @@
 const Home = {
-    template: '<h1>Home</h1>',
-    name: 'Home'
+    template: '#home',
+    name: 'Home',
+    data: () => {
+        return {
+            products,
+        }
+    }
 }
 const UserSettings = {
     template: '<h1>User Settings</h1>',
